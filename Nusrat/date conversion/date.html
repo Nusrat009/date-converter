@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="date.js">
+    </script>
+    <title>Date</title>
+    <link rel="stylesheet" type="text/css" href="date.css">
+</head>
+<body>
+   <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="date.html"><h2 style="color:cyan;margin-top:0px;"><b><i>DATE CONVERSIONs</i></b></h2></a>
+                </div>
+                </div>
+                </nav>
+                <h4 style="margin-top:60px">  month,date, year</h4>
+                <form id="frm1" style="margin-top:25px">
+                <h4>Enter your Date: </h4>
+                <input type="text" name="date" id="date1" placeholder="enter your date" />
+                <button type="button" name="submit" id="button1" onclick="con()">See Result</button><br> <br>
+                <p id="cel1"></p>
+            </form>
+     
+            <div id="sec">
+            <h4> date, month, year</h4>
+            <form id="frm2">
+                    <h4>Enter your Date: </h4>
+                    <input type="text" name="date" id="date2" placeholder="enter your date" />
+                   <br> <br>
+                </form>
+                <form id="frm3">
+                    <h4><pre>Choose your choice .
+                        1.Format be like (Day,Month Date,Year).
+                        2.Format be like (Month-Date-Year,Day).
+                        3.Format be like (Day,Year-Month-Date).
+                        4. Default.
+                    </pre>
+                    </h4>
+                    <h4>Enter your choice.</h4>
+                    <input type="text" name="date" id="date3" placeholder="enter your choice" />
+                    <button type="button" name="submit" id="button3" onclick="conv()">See Result</button><br> <br>
+                    <p id="cel3"></p>
+                </form>
+            </div>
+                <footer class="text-center" style="position:fixed;right:0px;bottom:0px;left: 0px; background-color:black;color:aliceblue">
+                        <p style="text-align:center">E-mail:nusrat.codesmith@gmail.com</p>
+                        <p style="text-align: center">Phone:01682697335</p>  
+                       </footer>
+   </div> 
+</body>
+</html>
